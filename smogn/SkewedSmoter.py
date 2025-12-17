@@ -208,8 +208,7 @@ class SkewedSmoter:
         return self.focus
 
     def set_focus(self, focus):
-        self.focus = np.float32(focus)
-        self.focus = self.focus.round(2)
+        self.focus = np.float32(round(focus, 2))
         return self
 
     def set_bin_width(self, bin_width):
