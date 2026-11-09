@@ -11,6 +11,7 @@ authors:
     affiliation: "Helmholtz Centre for Environmental Research - UFZ"
     orcid: "https://orcid.org/0000-0002-9689-6184"
 version: 1.0.0
+doi: 10.5281/zenodo.24088692
 date-released: 2026-11-09
 license: GPL-3.0-only
 repository-code: "https://github.com/fepo-ufz/smogn"

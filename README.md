@@ -1,5 +1,7 @@
 ## UFZ version
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24088692.svg)](https://doi.org/10.5281/zenodo.24088692)
+
 This repository is the version of smogn used by FEPO (<https://github.com/fepo-ufz/FEPO>). It is based on
 smogn by Nick Kunz (<https://github.com/nickkunz/smogn>) and was modified by Majid Soheili, Helmholtz Centre
 for Environmental Research - UFZ, between February 2024 and December 2025. The changes are:
