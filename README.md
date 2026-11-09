@@ -1,3 +1,20 @@
+## UFZ version
+
+This repository is the version of smogn used by FEPO (<https://github.com/fepo-ufz/FEPO>). It is based on
+smogn by Nick Kunz (<https://github.com/nickkunz/smogn>) and was modified by Majid Soheili, Helmholtz Centre
+for Environmental Research - UFZ, between February 2024 and December 2025. The changes are:
+
+- support for categorical features (pandas `category` type) in the distance computation and the
+  restoration of the original data types;
+- `SkewedSmoter`, an over-sampler for skewed targets, and an under-sampler based on cluster medoids;
+- handling of missing values, normalisation helpers, quality checks of the synthetic data, logging and a
+  verbose option;
+- a vectorised and faster distance computation (HEOM), with `float32` data;
+- bug fixes and unit tests for the above.
+
+The full list of changes, with dates and authors, is in the git history. Like the original, this version
+is licensed under the GNU General Public License, version 3 (see `LICENSE`).
+
 <div align="center">
   <img src="https://github.com/nickkunz/smogn/blob/master/media/images/smogn_banner.png">
 </div>
