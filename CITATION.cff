@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite the original smogn and this version."
+title: "smogn, UFZ version for FEPO"
+abstract: "Synthetic minority over-sampling for regression with Gaussian noise (SMOGN), extended for FEPO with categorical features, skewed-target over-sampling and cluster-medoid under-sampling."
+type: software
+authors:
+  - family-names: Kunz
+    given-names: Nick
+  - family-names: Soheili
+    given-names: Majid
+    affiliation: "Helmholtz Centre for Environmental Research - UFZ"
+    orcid: "https://orcid.org/0000-0002-9689-6184"
+version: 1.0.0
+date-released: 2026-11-09
+license: GPL-3.0-only
+repository-code: "https://github.com/fepo-ufz/smogn"
+references:
+  - type: software
+    title: "SMOGN: Synthetic Minority Over-Sampling Technique for Regression with Gaussian Noise"
+    authors:
+      - family-names: Kunz
+        given-names: Nick
+    repository-code: "https://github.com/nickkunz/smogn"
+  - type: conference-paper
+    title: "SMOGN: a Pre-processing Approach for Imbalanced Regression"
+    authors:
+      - family-names: Branco
+        given-names: Paula
+      - family-names: Torgo
+        given-names: Luís
+      - family-names: Ribeiro
+        given-names: Rita P.
+    year: 2017
+    collection-title: "Proceedings of Machine Learning Research"
+    volume: 74
